@@ -154,6 +154,7 @@ func (self *HandlerCreator) menuPromptFromCommand(prompt *config.CustomCommandPr
 type CustomCommandObjects struct {
 	*SessionState
 	PromptResponses []string
+	Form            map[string]string
 }
 
 func (self *HandlerCreator) getResolveTemplateFn(promptResponses []string, sessionState *SessionState) func(string) (string, error) {
