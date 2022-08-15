@@ -27,6 +27,7 @@ var tests = []*components.IntegrationTest{
 	custom_commands.Basic,
 	custom_commands.MultiplePrompts,
 	custom_commands.MenuFromCommand,
+	custom_commands.FormPrompts,
 }
 
 func GetTests() []*components.IntegrationTest {
